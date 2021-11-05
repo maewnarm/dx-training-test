@@ -1,0 +1,15 @@
+{
+    "locales": [
+        "en",
+        "th"
+    ],
+    "defaultLocale": "en",
+    "pages": {
+        "/": [
+            "home"
+        ],
+        "*": [
+            "layout"
+        ]
+    }
+}

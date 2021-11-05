@@ -2,8 +2,11 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import useTranslation from 'next-translate/useTranslation'
 
 const Home: NextPage = () => {
+  const {t,lang} = useTranslation('home')
+
   return (
     <div className={styles.container}>
       <Head>
@@ -14,7 +17,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        
+        <h2 style={{color: "red"}}>{t('title')}</h2>
       </main>
 
       <footer className={styles.footer}>

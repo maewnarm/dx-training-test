@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import '../styles/main.scss'
+import '../styles/animate.scss'
 import type { AppProps } from 'next/app'
 import Sidebar from '../components/Sidebar'
 import {ToastContainer} from 'react-toastify'
